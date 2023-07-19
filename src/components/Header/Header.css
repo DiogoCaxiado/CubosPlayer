@@ -1,0 +1,37 @@
+.Cubos-Player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    height: 135px;
+
+    border-bottom: 1px solid #6A6363;
+}
+
+.Logo {
+    margin-left: 32px;
+}
+
+.Bem-vindo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin-right: 32px;
+}
+
+.Bem-vindo img {
+    width: 40px;
+
+    border: 2px solid #6A6363;
+    border-radius: 50%;
+}
+
+.Bem-vindo strong {
+    font-size: 16px;
+    line-height: normal; 
+    
+    color: #FFF;
+}

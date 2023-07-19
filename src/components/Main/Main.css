@@ -1,0 +1,66 @@
+
+
+.Main {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 48px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Content h2{
+    font-size: 24px;
+    font-weight: 700;
+
+    margin: 24px 0;
+
+    color: #FFF;
+}
+
+.Playlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    
+    width: fit-content;
+    padding-top: 12px;
+    border-top: 1px solid #6A6363;
+
+}
+
+.Album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 260px;
+    cursor: pointer;
+}
+
+.Album h3 {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 700;
+
+    margin: 8px 0;
+    color: #FFF;
+}
+
+.Album p {
+    text-align: justify;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    
+    color: #CCC3C3;
+}
+
+.Album:hover {
+    transition: all ease-in-out 0.2s;
+    transform: scale(1.01);
+}
